@@ -2,7 +2,7 @@ import streamlit as st
 from gtts import gTTS
 import io
 
-st.subheader("재민샘과 함께하는 TTS🌍")
+st.subheader("재민샘과 함께 하는 TTS🌍")
 
 text_input = st.text_area("Enter the text you want to convert to speech:")
 
@@ -26,9 +26,6 @@ if tts_button and text_input:
         "Korean": ("ko", None),
         "English (American)": ("en", "com"),
         "English (British)": ("en", "co.uk"),
-        "Russian": ("ru", None),
-        "Spanish": ("es", None),
-        "French": ("fr", None),
         "Japanese": ("ja", None)
     }
 
