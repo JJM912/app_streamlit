@@ -12,9 +12,6 @@ language = st.selectbox(
         "Korean",
         "English (American)",
         "English (British)",
-        "Russian",
-        "Spanish",
-        "French",
         "Japanese"
     ]
 )
